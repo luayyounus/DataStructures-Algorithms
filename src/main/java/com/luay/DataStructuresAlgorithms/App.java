@@ -6,8 +6,13 @@ package com.luay.DataStructuresAlgorithms;
  */
 public class App 
 {
+
+    public static int[][] array2d;
+
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+
     }
 }
