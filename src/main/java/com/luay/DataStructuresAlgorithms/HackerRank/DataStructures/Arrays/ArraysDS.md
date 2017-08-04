@@ -24,31 +24,48 @@ Print all  integers in  in reverse order as a single line of space-separated int
 
 #### Java
 ```java
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
+import java.util.Stack;
 
-public class Solution {
-    
-    static Stack<Integer> theStack = new Stack<>();
-    
+public class ArraysDS {
+
+    static Stack<Integer> stack = new Stack();
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);        
+        Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int[] array = new int[n];   
+        int[] array = new int[n];
         for (int i = 0; i< n; i++){
             addToStack(scanner.nextInt());
         }
-        printStack(theStack, n);
+        printStack(stack, n);
     }
-    
+
     public static void addToStack(int x) {
-        theStack.push(x);
+        stack.push(x);
     }
 
     public static void printStack(Stack<Integer> p, int limit) {
         for (int i = 0 ; i < limit ; i++){
-            System.out.print(theStack.pop() + " ");
+            System.out.print(stack.pop() + " ");
         }
     }
+}
+```
+
+#### Swift
+```Swift
+import Foundation
+
+// number of elements
+let n = Int(readLine()!)!
+
+// read array
+let arr = readLine()!.components(separatedBy: " ").map{ Int($0)! }
+
+// iterate over the array in reverse order and print the elements separated by space
+let reversedArray = arr.reversed()
+for num in reversedArray {
+    print("\(num)", terminator: " ")
 }
 ```
