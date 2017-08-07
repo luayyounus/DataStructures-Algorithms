@@ -16,6 +16,9 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 | --------------- | ---------- | ---------------- |
 | Arrays          |   Easy     | [Arrays - DS](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Arrays/ArraysDS.md)  |
 | Arrays          |   Easy     | [2D Array - DS](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Arrays/Arrays2D.md) |
+| Arrays          |   Easy     | [Dynamic Array](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Arrays/DynamicArray.md) |
+
+
 
 <!-- | Linked Lists    | -->
 <!-- | Trees           | -->
