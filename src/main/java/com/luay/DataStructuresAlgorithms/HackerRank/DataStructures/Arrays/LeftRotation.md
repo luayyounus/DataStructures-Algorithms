@@ -42,3 +42,19 @@ public class LeftRotation {
 }
 
 ```
+
+```swift
+let n = Int(readLine()!)!
+let d = Int(readLine()!)!
+
+var arrayOfEle = readLine()!.components(separatedBy: " ").map{ Int($0)! }
+
+for index in -1..<d {
+    let removedItem = arrayOfEle.remove(at: 0)
+    arrayOfEle.append(removedItem)
+}
+
+for num in arrayOfEle {
+    print("\(num)", terminator: " ")
+}
+```
