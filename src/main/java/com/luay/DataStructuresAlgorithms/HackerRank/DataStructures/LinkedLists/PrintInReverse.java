@@ -4,10 +4,6 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 public class PrintInReverse {
-    class Node {
-        int data;
-        Node next;
-    }
     void ReversePrint(Node head) {
         Stack<Integer> reversedLL = new Stack<Integer>();
 

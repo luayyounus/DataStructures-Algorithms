@@ -1,10 +1,6 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists;
 
 public class DeleteNodeAtPosition {
-    class Node {
-        int data;
-        Node next;
-    }
     Node Delete(Node head, int position) {
         if (head == null) return head;
         if (position == 0) {

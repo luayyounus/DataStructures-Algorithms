@@ -1,11 +1,6 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists;
 
 public class InsertNodeAtTail {
-    class Node {
-        int data;
-        Node next;
-    }
-
     Node Insert(Node head,int data) {
         Node newNode = new Node();
         newNode.data = data;
