@@ -28,5 +28,4 @@ public class DeleteNodeAtPosition {
         }
         return head;
     }
-
 }
