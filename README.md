@@ -29,7 +29,7 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Easy     | [Reverse Linked List](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/ReverseLinkedList.md) |
 |                 |   Easy     | [Compare Two Linked Lists](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/CompareTwoLL.md) |
 |                 |   Easy     | [Merge Two Sorted Linked Lists](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/MergeTwoSortedLL.md) |
-
+|                 |   Easy     | [Get Node Value](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/GetNodeValueFromTail.md) |
 
 <!-- | Trees           | -->
 <!-- | Balanced Trees  | -->
