@@ -14,7 +14,7 @@ public class GetNodeValueFromTail {
     }
 
     //With a second Pointer the calculates the distance between head and the pointer that is behind
-    public int GetNodeWithoutArray(Node head, int n){
+    public int GetNodeWithSecondPointer(Node head, int n){
         int prevCounter = 0;
         Node prev = head;
         while(head.next != null){
