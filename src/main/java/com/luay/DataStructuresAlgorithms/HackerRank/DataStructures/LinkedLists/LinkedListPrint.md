@@ -1,5 +1,5 @@
 # Print the Elements of a Linked List 
-
+Print all elements of a linkedlist on a new line each.
 #### Java
 ```java
 public class LinkedListPrint {
