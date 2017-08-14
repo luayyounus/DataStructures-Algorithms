@@ -1,7 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists;
 
 public class MergeTwoSortedLL {
-    Node mergeLists(Node headA, Node headB) {
+    public Node mergeLists(Node headA, Node headB) {
         if (headA == null) return headB;
         if (headB == null) return headA;
         if(headA.data < headB.data){
