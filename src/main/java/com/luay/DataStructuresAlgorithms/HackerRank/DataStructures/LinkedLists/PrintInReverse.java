@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 public class PrintInReverse {
-    void ReversePrint(Node head) {
+    public void ReversePrint(Node head) {
         Stack<Integer> reversedLL = new Stack<Integer>();
 
         if (head != null) {

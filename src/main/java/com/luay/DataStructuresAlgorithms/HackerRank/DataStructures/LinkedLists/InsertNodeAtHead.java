@@ -1,7 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists;
 
 public class InsertNodeAtHead {
-    Node Insert(Node head,int x) {
+    public Node Insert(Node head,int x) {
         Node newNode = new Node();
         newNode.data = x;
         if (head == null) {

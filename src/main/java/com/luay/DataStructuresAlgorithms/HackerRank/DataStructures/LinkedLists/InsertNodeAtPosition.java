@@ -1,7 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists;
 
 public class InsertNodeAtPosition {
-    Node InsertNth(Node head, int data, int position) {
+    public Node InsertNth(Node head, int data, int position) {
         if (position < 0) return head;
 
         Node nodeToInsert = new Node();
