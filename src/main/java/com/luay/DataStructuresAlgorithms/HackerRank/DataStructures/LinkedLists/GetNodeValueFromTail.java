@@ -12,6 +12,21 @@ public class GetNodeValueFromTail {
         }
         return linkedListArray.get(linkedListArray.size() -1 -n);
     }
+
+    //With a second Pointer the calculates the distance between head and the pointer that is behind
+    public int GetNodeWithoutArray(Node head, int n){
+        int prevCounter = 0;
+        Node prev = head;
+        while(head.next != null){
+            head = head.next;
+            if(prevCounter < n){
+                prevCounter++;
+            } else {
+                prev = prev.next;
+            }
+        }
+        return prev.data;
+    }
 }
 
 
