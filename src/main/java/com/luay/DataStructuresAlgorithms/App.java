@@ -14,8 +14,7 @@ import java.util.List;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) {
         Node headA = null;
         Node headB = null;
 
@@ -30,7 +29,7 @@ public class App
         headB = insertNodeAtTail.Insert(headB, 7);
 
         MergeTwoSortedLL mergeClass = new MergeTwoSortedLL();
-        Node mergeSortedLists = mergeClass.mergeLists(headA,headB);
+        Node mergeSortedLists = mergeClass.mergeLists(headA, headB);
 
         LinkedListPrint printLL = new LinkedListPrint();
         printLL.Print(mergeSortedLists);
