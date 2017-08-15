@@ -31,6 +31,7 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Easy     | [Merge Two Sorted Linked Lists](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/MergeTwoSortedLL.md) |
 |                 |   Easy     | [Get Node Value](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/GetNodeValueFromTail.md) |
 |                 |   Easy     | [Remove Duplicated](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/RemoveDuplicated.md) |
+|                 |   Medium   | [Cycle Detection](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/CycleDetection.md) |
 
 <!-- | Trees           | -->
 <!-- | Balanced Trees  | -->
