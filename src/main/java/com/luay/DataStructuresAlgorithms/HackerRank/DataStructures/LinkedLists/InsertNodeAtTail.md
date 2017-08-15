@@ -18,8 +18,8 @@ NULL, data =
 2 --> 3 --> NULL
 ```
 #### Explanation 
-1. We have an empty list, and we insert . 
-2. We start with a  in the tail. When  is inserted,  then becomes the tail.
+1. We have an empty list, and we insert 2. 
+2. We start with a 2 in the tail. When 3 is inserted, 3 then becomes the tail.
 
 #### Java
 ```java
