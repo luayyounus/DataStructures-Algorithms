@@ -1,7 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists;
 
 public class FindMergePointOfTwoLists {
-    int FindMergeNode(Node headA, Node headB) {
+    public int FindMergeNode(Node headA, Node headB) {
         LinkedListLength length = new LinkedListLength();
         int a = length.linkedListLength(headA);
         int b = length.linkedListLength(headB);

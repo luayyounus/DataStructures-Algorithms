@@ -48,33 +48,31 @@ The diagrams below are graphical representations of the lists that input Nodes h
 ```
 #### Java
 ```java
-public class DeleteNodeAtPosition {
-    class Node {
-        int data;
-        Node next;
+public class FindMergePointOfTwoLists {
+    public int LinkedListLength(Node head) {
+        return head.next != null ? 1 + LinkedListLength(head.next) : 1;
     }
-    Node Delete(Node head, int position) {
-        if (head == null) return head;
-        if (position == 0) {
-            head = head.next;
-            return head;
+    public int FindMergeNode(Node headA, Node headB) {
+        int a = LinkedListLength(headA);
+        int b = LinkedListLength(headB);
+        int difference = a - b;
+        if(a < b){
+            Node temp = headA;
+            headA = headB;
+            headB = temp;
+            difference = b - a;
         }
-
-        Node current = head;
-        Node prev = head;
-        int counter = 0;
-        while(current.next != null){
-            counter++;
-            current = current.next;
-            if (counter == position){
-                Node temp = current.next;
-                current = null;
-                prev.next = temp;
-                return head;
+        for(int i = 0; i<difference; i++){
+            headA = headA.next;
+        }
+        while(headA != null){
+            if(headA.data == headB.data){
+                return headA.data;
             }
-            prev = prev.next;
+            headA = headA.next;
+            headB = headB.next;
         }
-        return head;
+        return 0;
     }
 }
 
