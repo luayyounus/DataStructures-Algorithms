@@ -1,12 +1,5 @@
 package com.luay.DataStructuresAlgorithms;
-import com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists.InsertNodeAtTail;
-import com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists.LinkedListPrint;
-import com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists.MergeTwoSortedLL;
-import com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists.Node;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.LinkedLists.*;
 
 /**
  * Hello world!
@@ -33,5 +26,6 @@ public class App
 
         LinkedListPrint printLL = new LinkedListPrint();
         printLL.Print(mergeSortedLists);
+        
     }
 }
