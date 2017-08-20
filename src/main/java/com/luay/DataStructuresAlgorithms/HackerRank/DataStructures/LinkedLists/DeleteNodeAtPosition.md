@@ -24,11 +24,11 @@ Delete the node at the given position and return the head of the updated linked 
 
 #### Java
 ```java
+public class Node {
+    int data;
+    Node next;
+}
 public class DeleteNodeAtPosition {
-    class Node {
-        int data;
-        Node next;
-    }
     Node Delete(Node head, int position) {
         if (head == null) return head;
         if (position == 0) {

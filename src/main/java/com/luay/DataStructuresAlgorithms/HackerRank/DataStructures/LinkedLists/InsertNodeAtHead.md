@@ -22,11 +22,11 @@ NULL , data = 1
 2. We have a list with 1 as head, on inserting 2, 2 becomes the new head.
 #### Java
 ```java
+public class Node {
+    int data;
+    Node next;
+}
 public class InsertNodeAtHead {
-    class Node {
-        int data;
-        Node next;
-    }
     Node Insert(Node head,int x) {
         Node newNode = new Node();
         newNode.data = x;

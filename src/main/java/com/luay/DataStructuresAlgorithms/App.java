@@ -27,5 +27,10 @@ public class App
         LinkedListPrint printLL = new LinkedListPrint();
         printLL.Print(mergeSortedLists);
 
+        System.out.println("Reversed");
+
+        ReverseLinkedList reverse = new ReverseLinkedList();
+        Node reversedLL = reverse.Reverse(mergeSortedLists);
+        printLL.Print(reversedLL);
     }
 }

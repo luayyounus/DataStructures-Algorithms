@@ -26,11 +26,11 @@ For the purpose of evaluation the list has been initialised with a node with dat
 
 #### Java
 ```java
+public class Node {
+    int data;
+    Node next;
+}
 public class InsertNodeAtPosition {
-    class Node {
-        int data;
-        Node next;
-    }
     Node InsertNth(Node head, int data, int position) {
         if (position < 0) return head;
 

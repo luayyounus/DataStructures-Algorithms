@@ -11,12 +11,12 @@ Note: Recall that an empty list (i.e., where *head* = **null** ) and a list with
 
 #### Java
 ```java
+public class Node {
+    int data;
+    Node next;
+    Node prev;
+}
 public class InsertNodeIntoSortedDoublyLL {
-    class Node {
-        int data;
-        Node next;
-        Node prev;
-    }
     Node SortedInsert(Node head,int data) {
         if(head == null){
             Node rootNode = new Node();

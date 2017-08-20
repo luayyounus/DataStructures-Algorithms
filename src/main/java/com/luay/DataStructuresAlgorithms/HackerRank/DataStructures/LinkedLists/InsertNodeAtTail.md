@@ -23,12 +23,11 @@ NULL, data =
 
 #### Java
 ```java
+class Node {
+    int data;
+    Node next;
+}
 public class InsertNodeAtTail {
-    class Node {
-        int data;
-        Node next;
-    }
-
     Node Insert(Node head,int data) {
         Node newNode = new Node();
         newNode.data = data;

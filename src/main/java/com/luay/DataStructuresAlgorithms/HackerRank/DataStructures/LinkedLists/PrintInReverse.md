@@ -27,11 +27,11 @@ Print the elements of the linked list in reverse order to stdout/console (using 
 
 #### Java
 ```java
+public class Node {
+    int data;
+    Node next;
+}
 public class PrintInReverse {
-    class Node {
-        int data;
-        Node next;
-    }
     void ReversePrint(Node head) {
         Stack<Integer> reversedLL = new Stack<Integer>();
 
