@@ -35,8 +35,9 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Easy     | [Insert Node Into Sorted Doubly LL](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/InsertNodeIntoSortedDoublyLL.md) |
 |                 |   Easy     | [Reverse a Doubly LL](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/ReverseDoublyLL.md)
 |                 |   Medium   | [Cycle Detection](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/LinkedLists/CycleDetection.md) |
+|      Trees      |   Easy     | [Preorder Traversal](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/PreorderTraversal.md) |
 
-<!-- | Trees           | -->
+
 <!-- | Balanced Trees  | -->
 <!-- | Stacks          | -->
 <!-- | Queues          | -->
