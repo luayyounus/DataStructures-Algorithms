@@ -24,6 +24,7 @@ Your function should return a single integer denoting the height of the binary t
 #### Explanation
 
 The longest root-to-leaf path is shown below:
+
 ![](https://s3.amazonaws.com/hr-challenge-images/17175/1459895368-4955f9ce74-LongestRTL.png)
 
 There are *4* nodes in this path that are connected by *3* edges, meaning our binary tree's *height = 3* . Thus, we print *3* as our answer.
@@ -47,6 +48,11 @@ public class HeightOfBinaryTree {
             right = height(root.right) + 1;
         }
         if(right > left) return right; else return left;
+    }
+    // Using Math.Max
+    public static int heightWithMax(Node root){
+        if(root == null) return -1;
+        return 1 + Math.max(heightWithMax(root.left),heightWithMax(root.right));
     }
 }
 
