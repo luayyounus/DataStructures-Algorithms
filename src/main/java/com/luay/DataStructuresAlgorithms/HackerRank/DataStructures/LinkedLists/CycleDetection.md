@@ -26,11 +26,17 @@ The first list has no cycle, so we return false and the hidden code checker prin
 The second list has a cycle, so we return true and the hidden code checker prints 1 to stdout.
 
 ```java
-public class CompareTwoLL {
-    int CompareLists(Node headA, Node headB) {
-        if(headA == null && headB == null) return 1;
-        if(headA == null || headB == null || headA.data != headB.data) return 0;
-        return CompareLists(headA.next, headB.next);
+public class CycleDetection {
+    boolean hasCycle(Node head) {
+        if(head == null) return false;
+        Node walker = head;
+        Node runner = head.next;
+        while(runner != null && runner.next != null){
+            if(walker == runner) return true;
+            walker = walker.next;
+            runner = runner.next.next;
+        }
+        return false;
     }
 }
 
