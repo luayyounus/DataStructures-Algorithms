@@ -24,13 +24,14 @@ public class TopView {
         return;
     }
 
-    
+
 // Another Solution with Static Counter
 
 //    public int counter = 0;
 //
 //    public void topView(Node root) {
 //        if(root.left != null && counter >= 0){
+//            counter++;
 //            topView(root.left);
 //        }
 //        System.out.print(root.data + " ");

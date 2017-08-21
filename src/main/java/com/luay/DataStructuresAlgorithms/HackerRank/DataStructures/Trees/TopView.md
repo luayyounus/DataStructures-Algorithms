@@ -86,12 +86,12 @@ public class TopView {
 
     public void topView(Node root) {
         if(root.left != null && counter >= 0){
+            counter++;
             topView(root.left);
         }
         System.out.print(root.data + " ");
         counter--;
         if(root.right != null && counter < 0){
-            counter--;
             topView(root.right);
         }
     }
