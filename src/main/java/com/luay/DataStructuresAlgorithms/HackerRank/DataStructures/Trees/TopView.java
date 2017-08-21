@@ -16,11 +16,29 @@ public class TopView {
         System.out.print(leftRoot.data + " ");
         return;
     }
-    public void rightSide(Node rightRoot){
+    public void rightSide(Node rightRoot) {
         System.out.print(rightRoot.data + " ");
-        if(rightRoot.right != null){
+        if (rightRoot.right != null) {
             rightSide(rightRoot.right);
         }
         return;
     }
+
+    
+// Another Solution with Static Counter
+
+//    public int counter = 0;
+//
+//    public void topView(Node root) {
+//        if(root.left != null && counter >= 0){
+//            topView(root.left);
+//        }
+//        System.out.print(root.data + " ");
+//        counter--;
+//        if(root.right != null && counter < 0){
+//            counter--;
+//            topView(root.right);
+//        }
+//    }
 }
+
