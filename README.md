@@ -38,6 +38,10 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |      Trees      |   Easy     | [Preorder Traversal](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/PreorderTraversal.md) |
 |                 |   Easy     | [Postorder Traversal](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/PostorderTraversal.md) |
 |                 |   Easy     | [Inorder Traversal](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/InorderTraversal.md) |
+|                 |   Easy     | [Height of a Binary Tree](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/HeightOfBinaryTree.md) |
+
+
+
 <!-- | Balanced Trees  | -->
 <!-- | Stacks          | -->
 <!-- | Queues          | -->
