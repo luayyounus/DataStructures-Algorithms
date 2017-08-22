@@ -40,6 +40,8 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Easy     | [Inorder Traversal](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/InorderTraversal.md) |
 |                 |   Easy     | [Height of a Binary Tree](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/HeightOfBinaryTree.md) |
 |                 |   Easy     | [Top View](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/TopView.md) |
+|                 |   Easy     | [Level Order Traversal](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/LevelOrderTraversal.md) |
+
 
 
 
