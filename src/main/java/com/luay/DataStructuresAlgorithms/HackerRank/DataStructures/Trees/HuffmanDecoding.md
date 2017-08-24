@@ -68,5 +68,25 @@ Decoded String = "ABACA"
 
 #### Java
 ```java
-
+public class NodeFrequency {
+    public  int frequency; // the frequency of this tree
+    public  char data;
+    public  NodeFrequency left, right;
+}
+public class HuffmanDecoding {
+    public void decode(String S ,NodeFrequency root){
+        NodeFrequency current = root;
+        for(int i = 0; i < S.length(); i++){
+            if(S.charAt(i) == '0'){
+                current = current.left;
+            } else {
+                current = current.right;
+            }
+            if(current.data != '\0'){
+                System.out.print(current.data);
+                current = root;
+            }
+        }
+    }
+}
 ```

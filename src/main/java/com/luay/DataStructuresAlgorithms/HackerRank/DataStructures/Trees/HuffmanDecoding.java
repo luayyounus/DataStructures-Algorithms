@@ -1,7 +1,6 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.Trees;
 
 public class HuffmanDecoding {
-    //Non-recursive
     public void decode(String S ,NodeFrequency root){
         NodeFrequency current = root;
         for(int i = 0; i < S.length(); i++){
