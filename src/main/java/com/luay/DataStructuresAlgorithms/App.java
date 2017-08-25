@@ -4,6 +4,7 @@ import com.sun.xml.internal.xsom.impl.scd.Iterators;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Hello world!
@@ -36,7 +37,5 @@ public class App
         ReverseLinkedList reverse = new ReverseLinkedList();
         Node reversedLL = reverse.Reverse(mergeSortedLists);
         printLL.Print(reversedLL);
-
-        Queue<Node> queue = new LinkedList<Node>();
     }
 }
