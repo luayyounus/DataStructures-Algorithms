@@ -42,7 +42,10 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Easy     | [Top View](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/TopView.md) |
 |                 |   Easy     | [Level Order Traversal](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/LevelOrderTraversal.md) |
 |                 |   Easy     | [Insertion](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/Insertion.md) |
+|                 |   Easy     | [Lowest Common Ancestor](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/LowestCommonAncestor.md) |
 |                 |   Medium   | [Huffman Decoding](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/HuffmanDecoding.md) |
+|                 |   Medium   | [Swap Nodes Algo](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/SwapNodesAlgo.md) |
+
 
 
 
