@@ -1,5 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.Trees;
 
+import java.util.Stack;
+
 public class CheckBST {
     boolean checkBST(Node root) {
         int min = 0;
@@ -24,4 +26,25 @@ public class CheckBST {
         return left && right;
     }
 
+    public boolean checkBST3(Node root) {
+        if(root == null) return true;
+        Stack<Node> stack = new Stack();
+        stack.push(root);
+        while(!stack.isEmpty()){
+            root = stack.pop();
+            if(root.left != null){
+                stack.push(root.left);
+            }
+            if(root.right != null){
+                stack.push(root.right);
+            }
+            if(root.data <= root.left.data){
+                return false;
+            }
+            if(root.data >= root.right.data){
+                return false;
+            }
+        }
+        return true;
+    }
 }
