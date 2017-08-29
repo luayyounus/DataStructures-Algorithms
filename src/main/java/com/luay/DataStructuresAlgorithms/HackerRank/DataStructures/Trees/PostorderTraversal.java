@@ -1,7 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.Trees;
 
 public class PostorderTraversal {
-    public void postOrder(Node root) {
+    public void postOrder(NodeTree root) {
         if(root == null) return;
         if(root.left != null){
             postOrder(root.left);

@@ -1,7 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.Trees;
 
 public class HeightOfBinaryTree {
-    public static int height(Node root) {
+    public static int height(NodeTree root) {
         if(root == null) return -1;
         int left = 0;
         int right = 0;
@@ -14,7 +14,7 @@ public class HeightOfBinaryTree {
         if(right > left) return right; else return left;
     }
     // Using Math.Max
-    public static int heightWithMax(Node root){
+    public static int heightWithMax(NodeTree root){
         if(root == null) return -1;
         return 1 + Math.max(heightWithMax(root.left),heightWithMax(root.right));
     }

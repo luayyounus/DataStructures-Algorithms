@@ -1,9 +1,9 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.Trees;
 
 public class Insertion {
-    static Node Insert(Node root,int value) {
+    public NodeTree Insert(NodeTree root,int value) {
         if(root == null){
-            Node nodeToInsert = new Node();
+            NodeTree nodeToInsert = new NodeTree();
             nodeToInsert.data = value;
             nodeToInsert.left = null;
             nodeToInsert.right = null;

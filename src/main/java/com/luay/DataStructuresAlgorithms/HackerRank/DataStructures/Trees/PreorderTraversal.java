@@ -1,7 +1,7 @@
 package com.luay.DataStructuresAlgorithms.HackerRank.DataStructures.Trees;
 
 public class PreorderTraversal {
-    void preOrder(Node root) {
+    void preOrder(NodeTree root) {
         if(root == null) return;
         System.out.print(root.data + " ");
         if(root.left != null){
