@@ -1,6 +1,6 @@
 # Tree: Swap Nodes *Algo* 
 
-![Link to Problem Description on HackerRank](https://www.hackerrank.com/challenges/swap-nodes-algo)
+[Link to Problem Description on HackerRank](https://www.hackerrank.com/challenges/swap-nodes-algo)
 
 #### Java
 ```java
