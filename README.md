@@ -46,6 +46,7 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Medium   | [Huffman Decoding](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/HuffmanDecoding.md) |
 |                 |   Medium   | [Swap Nodes Algo](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/SwapNodesAlgo.md) |
 |                 |   Medium   | [Check BST](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/CheckBST.md) |
+|    AVLTree      |   Medium   | [AVLTree: Self Balancing Tree](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/AVL/AVLTree.md) |
 
 
 
