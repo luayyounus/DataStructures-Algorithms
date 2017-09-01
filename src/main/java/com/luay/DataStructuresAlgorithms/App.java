@@ -55,7 +55,7 @@ public class App
 //        insertion.Insert(root,3);
 //        insertion.Insert(root,5);
 //        insertion.Insert(root,6);
-//        insertion.Insert(root,7);
+//        insertion.Inse    rt(root,7);
 
 
 //        InorderTraversal inorderTraversal = new InorderTraversal();
