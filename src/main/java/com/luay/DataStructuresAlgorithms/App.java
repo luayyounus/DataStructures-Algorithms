@@ -60,6 +60,5 @@ public class App
 
 //        InorderTraversal inorderTraversal = new InorderTraversal();
 //        inorderTraversal.inOrder(root);
-
     }
 }

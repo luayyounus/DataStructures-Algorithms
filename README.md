@@ -48,6 +48,7 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Medium   | [Check BST](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Trees/CheckBST.md) |
 |    AVLTree      |   Medium   | [AVLTree: Self Balancing Tree](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/AVL/AVLTree.md) |
 |     Stacks      |   Easy     | [Maximum Element](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/MaximumElement.md) |
+|                 |   Easy     | [Maximum Element](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/EqualStacks.md) |
 |                 |   Medium   | [Balanced Brackets](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/BalancedBrackets.md) |
 
 
