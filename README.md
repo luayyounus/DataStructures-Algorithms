@@ -50,6 +50,7 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |     Stacks      |   Easy     | [Maximum Element](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/MaximumElement.md) |
 |                 |   Easy     | [Maximum Element](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/EqualStacks.md) |
 |                 |   Medium   | [Balanced Brackets](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/BalancedBrackets.md) |
+|                 |   Medium   | [Simple Text Editor](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/SimpleTextEditor.md) |
 
 
 
