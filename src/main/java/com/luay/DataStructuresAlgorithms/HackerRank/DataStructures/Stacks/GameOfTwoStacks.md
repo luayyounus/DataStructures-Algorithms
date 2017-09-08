@@ -3,36 +3,64 @@
 
 #### Java
 ```java
-public class MaximumElement {
+public class GameOfTwoStacks {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        Stack<Integer> stack = new Stack<>();
-        Stack<Integer> max = new Stack<>();
-        max.push(0);
-
-        int n = scan.nextInt();
-
-        for(int i = 0; i < n; i++){
-            int type = scan.nextInt();
-            if(type == 1){
-                int x = scan.nextInt();
-                stack.push(x);
-                if(stack.peek() >= max.peek()) {
-                    max.push(stack.peek());
-                }
+        Scanner in = new Scanner(System.in);
+        int g = in.nextInt();
+        for(int a0 = 0; a0 < g; a0++){
+            int n = in.nextInt();
+            int m = in.nextInt();
+            int x = in.nextInt();
+            int[] a = new int[n];
+            for(int a_i=0; a_i < n; a_i++){
+                a[a_i] = in.nextInt();
             }
-            if(type == 2){
-                if(stack.peek() == max.peek()){
-                    max.pop();
-                }
-                stack.pop();
+            int[] b = new int[m];
+            for(int b_i=0; b_i < m; b_i++){
+                b[b_i] = in.nextInt();
             }
-            if(type == 3){
-                System.out.println(max.peek());
+
+            //Stack A and Stack B so we can pop once at a time from the top
+            Stack<Integer> stackA = new Stack<>();
+            Stack<Integer> stackB = new Stack<>();
+            for (int i = 0; i < n; i++) {
+                stackA.push(a[n - 1 - i]);
+            }
+            for (int j = 0; j < m; j++) {
+                stackB.push(b[m - 1 - j]);
+            }
+
+            int maxPoints = 0;
+
+            if(stackA.peek() > x && stackB.peek() > x){
+                System.out.println(maxPoints);
+            } else {
+                long sum = 0;
+                int i = 0;
+                int j = 0;
+
+                //Check the First Stack till the end
+                while(!stackA.isEmpty() && sum + stackA.peek() <= x){
+                    sum += stackA.pop();
+                    i++;
+                }
+                maxPoints = i;
+
+                //Check the second stack and increase points by number of popped StackB items while decreasing points we counted in from StackA
+                while(!stackB.isEmpty() && i >= 0){
+                    sum += stackB.pop();
+                    j++;
+                    if(sum > x && i > 0){
+                        sum -= a[i-1];
+                        i--;
+                    }
+                    if(sum <= x && i+j > maxPoints){
+                        maxPoints = i + j;
+                    }
+                }
+                System.out.println(maxPoints);
             }
         }
-        scan.close();
     }
 }
-
 ```
