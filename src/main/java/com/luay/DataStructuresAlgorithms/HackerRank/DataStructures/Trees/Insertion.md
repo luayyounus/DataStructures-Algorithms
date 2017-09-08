@@ -24,23 +24,28 @@ The value to be inserted is 6.
 ```
 #### Java
 ```java
-public class Node {
-    int data;
-    Node left;
-    Node right;
+public class NodeTree {
+    public int data;
+    public NodeTree right,left;
 }
 
-public class InorderTraversal {
-    public void inOrder(Node root) {
-        if(root == null) return;
-        if(root.left != null){
-            inOrder(root.left);
+public class Insertion {
+    public NodeTree Insert(NodeTree root,int value) {
+        if(root == null){
+            NodeTree nodeToInsert = new NodeTree();
+            nodeToInsert.data = value;
+            nodeToInsert.left = null;
+            nodeToInsert.right = null;
+            root = nodeToInsert;
         }
-        System.out.print(root.data + " ");
-        if(root.right != null){
-            inOrder(root.right);
+        if(root.data > value){
+            root.left = Insert(root.left, value);
+        } else if (root.data < value){
+            root.right = Insert(root.right, value);
         }
+        return root;
     }
 }
+
 
 ```
