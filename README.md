@@ -53,17 +53,20 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Medium   | [Game of Two Stacks](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/GameOfTwoStacks.md) |
 |                 |   Medium   | [Waiter](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/Waiter.md) |
 
+</td></tr>
 
-<tr>
+
+
 <th> Sorting Algorithms </th> 
-</tr>
-
 <tr><td>
-|   Algorithm Name               |
+
+|   Name                         |
 | ------------------------------ |
 |  [Bubble Sort](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/Algorithms/BubbleSort.md)  |
 |  [Merge Sort](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/Algorithms/MergeSort.md) |
 |  [Quick Sort](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/Algorithms/QuickSort.md) |
+
+</td></tr>
 
 
 <!-- <th> LeetCode </th> -->
