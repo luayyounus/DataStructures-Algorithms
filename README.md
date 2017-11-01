@@ -7,7 +7,6 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 <table>
 <tr>
 <th> HackerRank </th> 
-<!-- <th> LeetCode </th> -->
 </tr>
 
 <tr><td>
@@ -55,7 +54,19 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Medium   | [Waiter](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/Waiter.md) |
 
 
+<tr>
+<th> Sorting Algorithms </th> 
+</tr>
 
+<tr><td>
+|   Algorithm Name               |
+| ------------------------------ |
+|  [Bubble Sort](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/Algorithms/BubbleSort.md)  |
+|  [Merge Sort](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/Algorithms/MergeSort.md) |
+|  [Quick Sort](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/Algorithms/QuickSort.md) |
+
+
+<!-- <th> LeetCode </th> -->
 
 
 
