@@ -25,6 +25,23 @@ public class TopView {
     }
 
 
+    public int maxDepth(NodeTree root) {
+        if(root == null) return 0;
+        int x = 0;
+        int y = 0;
+        x += (root.left != null) ? leftSide(root, x) : 0;
+        y += (root.right != null) ? rightSide(root, y) : 0;
+        return (x > y) ? x : y;
+    }
+
+    public int leftSide(NodeTree root, int counter){
+        return (root.left != null) ? leftSide(root.left, counter++) : counter;
+    }
+    public int rightSide(NodeTree root, int counter){
+        return (root.right != null) ? rightSide(root.right, counter++) : counter;
+    }
+
+
 // Another Solution with Static Counter
 
 //    public int counter = 0;
