@@ -8,6 +8,7 @@ public class Insertion {
             nodeToInsert.left = null;
             nodeToInsert.right = null;
             root = nodeToInsert;
+            return root;
         }
         if(root.data > value){
             root.left = Insert(root.left, value);
