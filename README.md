@@ -6,7 +6,7 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 
 <table>
 <tr>
-<th> HackerRank </th> 
+<th> Hacker Rank </th> 
 </tr>
 
 <tr><td>
@@ -52,6 +52,20 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Medium   | [Simple Text Editor](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/SimpleTextEditor.md) |
 |                 |   Medium   | [Game of Two Stacks](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/GameOfTwoStacks.md) |
 |                 |   Medium   | [Waiter](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/Waiter.md) |
+
+</td></tr>
+
+
+<th> Leet Code </th> 
+<tr><td>
+
+|  Problem     |
+| ------------------------------ |
+| [Add Two Numbers](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/LeetCode/AddTwoNumbers.md) |
+| [Find Missing Number From Array](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/LeetCode/FindMissingNumberFromArray.md) |
+| [Longest Substring](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/LeetCode/LongestSubstring.md) |
+| [Move Zeros](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/LeetCode/MoveZeros.md) |
+| [Palindrome Linked List](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/LeetCode/PalindromeLinkedList.md) |
 
 </td></tr>
 
