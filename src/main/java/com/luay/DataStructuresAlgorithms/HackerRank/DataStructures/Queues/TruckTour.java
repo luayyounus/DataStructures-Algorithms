@@ -17,7 +17,9 @@ public class TruckTour {
                 outOfGas += sum;
                 sum = 0;
                 position = i+1;
-            } if(i == n-1) {
+            }
+            if(i == n-1) {
+
                 if(sum + outOfGas >= 0){
                     System.out.println(position);
                 } else {
