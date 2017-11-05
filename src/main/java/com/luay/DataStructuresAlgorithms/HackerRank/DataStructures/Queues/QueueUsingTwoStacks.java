@@ -11,7 +11,7 @@ public class QueueUsingTwoStacks {
         Stack<Integer> s1 = new Stack<Integer>();
         Stack<Integer> s2 = new Stack<Integer>();
 
-        int queryType;
+        int queryType; //1 enquque 2 dequeue 3 print
 
         for(int i=0; i<n; i++){
             queryType = scan.nextInt();
