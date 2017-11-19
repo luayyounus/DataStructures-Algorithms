@@ -52,6 +52,7 @@ My solutions to problems from Hacker Rank, Leet Code, Cracking The Code Intervie
 |                 |   Medium   | [Simple Text Editor](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/SimpleTextEditor.md) |
 |                 |   Medium   | [Game of Two Stacks](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/GameOfTwoStacks.md) |
 |                 |   Medium   | [Waiter](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Stacks/Waiter.md) |
+|      Heap       |   Medium   | [MinHeap](https://github.com/luayyounus/DataStructures-Algorithms/blob/master/src/main/java/com/luay/DataStructuresAlgorithms/HackerRank/DataStructures/Heaps/MinHeap.md) |
 
 </td></tr>
 
